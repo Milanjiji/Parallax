@@ -1,0 +1,110 @@
+body{
+    background-color: #3772df;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    margin-bottom: 0pxX;
+}
+
+.moon img{
+    
+    position: absolute;
+    top: 200px;
+    right: 200px;
+     
+    width: 220px;
+    height: 180px;
+    
+}
+.hills img{
+    width: 110%;
+    position: absolute;
+    left: -5%;
+    top: 200px;
+}
+.lorem{
+    position: absolute;
+    top: 700px;
+    background-color:#689dff ;
+    box-shadow: 0 0 500px #689dff;
+    scroll-behavior: smooth;
+    z-index: 10;
+}
+.lorem p{
+    font-size: 25px;
+    margin: 0 20%;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 0 0 10px white;
+    text-align: center;
+}
+.lorem h1{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 10px;
+    font-size: 50px;
+    
+}
+.button{
+    position: absolute;
+    top: 300px;
+    left: 43%;
+    
+}
+.button p{
+    background-color: white;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 3px;
+    box-shadow: 0 0 70px white;
+    text-shadow: 0 0  15px white ;
+}
+.button a{
+    color: black;
+    text-decoration: none;
+}
+.logo{
+    color: #173264;
+    font-size: 35px;
+    letter-spacing: 5px;
+    font-weight: 900;
+    font-family: 'Pacifico', cursive;
+    margin-left: 6%;
+    margin-top: 40px;
+    background-color: white;
+    width: 9%;
+    padding:0.5% 3% ;
+    border-radius: 30px;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-right: 5%;
+    margin-top: 10px;
+}
+.list a{
+    background-color: #ccffff;
+    color: black;
+    text-decoration: none;
+    padding: 5px 30px;
+    margin: 0 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family:  'Pacifico', cursive ;
+}
+.list p{
+    font-weight: 100;
+}
+.birds{
+    width: 40px;
+    height: 30px;
+    background:transparent;
+    margin-left: 400px;
+    margin-top: 50px;
+}
